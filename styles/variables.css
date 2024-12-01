@@ -1,1 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root{
+  --bg-color: #000;
+  --main-font: Inter-Variable, sanf-serif;
+  --accent-font: PressStart2P-Regular, sanf-serif;
+  --text-color:  #00CC14;
+  --border-color: #00CC14;
+  --section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+}
+

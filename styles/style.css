@@ -13,4 +13,154 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-color: var(--bg-color);
+  /*padding-inline: 372px;*/
+  
+}
+
+.section-width{
+  width: var(--section-width);
+  margin: 0 auto;
+}
+
+
+.header{
+  background-color: aqua;
+  min-height: 364px;
+  margin-block: 100px;
+  border: 1px solid var(--border-color);
+}
+
+
+.header-container{
+  padding-block: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem) 25px;
+  padding-inline: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
+  grid-template-columns: 1fr;
+  display: grid;
+  grid-template-rows: min-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-title{
+  font-family: var(--accent-font);
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  justify-self: center;
+  padding-block-end: 20px;
+}
+
+.logo-description{
+  font-family: var(--accent-font);
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  justify-self: center;
+  padding-block-end: 25px;
+}
+
+
+.header__theme-menu{
+  justify-self: center;
+}
+
+.theme-menu__button{
+  font-family: var(--accent-font);
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  padding-inline-start: 20px;
+}
+
+.theme-menu__item:not(:last-of-type){
+  padding-block-end: 9px;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template: min-content;
+  font-family: var(--main-font);
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  margin-block-end: 52px;
+}
+
+.card-title{
+  padding-inline: 10px;
+  padding-block: 3px;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 785;
+}
+
+.card-text{
+  font-size: 18px;
+  line-height: 21px;
+  padding: 25px;
+}
+
+.card-paragraph:not(:last-of-type){
+  padding-block-end: 27px;
+}
+
+.card-image{
+  padding-block-start: 2px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.like{
+  display: flex;
+  padding-inline-end: 25px;
+  padding-block-end: 25px;
+  justify-content: flex-end;
+}
+
+.like-button{
+  width: 130px;
+  height: 38px;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  line-height: 12.6px;
+  padding: 12.5px 37px;
+  border: 2px solid var(--border-color);
+  background-color: transparent;
+}
+
+.brightness-filter{
+  filter: brightness(130%);
+}
+
+.saturate-filter{
+  filter: saturate(0.2);
+}
+
+.neon-filter{
+  filter: hue-rotate(-2deg) saturate(4) brightness(1) contrast(1.2);
+}
+
+.cherry-filter{
+  filter: hue-rotate(20deg) brightness(1.2) saturate(1);
+}
+
+.invert-filter{
+  filter: invert(1) brightness(0.8);
+}
+
+.sepia{
+  filter: sepia(0.8) saturate(.5);
+}
+
+.blur-filter{
+  filter: blur(15px);
+}
+
+.hue-blur-filter{
+  filter: hue-rotate(95deg) contrast(0.4) saturate(2) blur(1.5px);
 }
