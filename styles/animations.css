@@ -9,3 +9,12 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+@keyframes move {
+  0%{
+    transform: translate(0);
+  }
+  100%{
+    transform: translate(4px);
+  }
+}

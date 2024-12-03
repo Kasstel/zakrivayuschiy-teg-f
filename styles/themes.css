@@ -12,11 +12,33 @@
 
 :root.theme-light{
   --bg-color: #fff;
+  --bt-text-color: #fff;
+  --text-shadow: #fff;
+  --bg-image: repeating-linear-gradient(
+    to right, #d3d3d3, transparent 2px 
+  ),
+  repeating-linear-gradient(
+    to bottom, #d3d3d3, transparent 2px
+  ),
+  linear-gradient(#e7e7e7,#1a1a1a);
+  --text-color:  #000;
+  --border-color: #000;
 }
 
 @media (prefers-color-scheme: light){
   :root{
     --bg-color: #fff;
+    --bt-text-color: #fff;
+    --text-shadow: #fff;
+    --bg-image: repeating-linear-gradient(
+    to right, #d3d3d3, transparent 2px 
+  ),
+  repeating-linear-gradient(
+    to bottom, #d3d3d3, transparent 2px
+  ),
+  linear-gradient(#e7e7e7,#1a1a1a);
+    --text-color:  #000;
+    --border-color: #000;
   }
 }
 
