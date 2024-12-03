@@ -198,11 +198,40 @@
   outline: none;
 }
 
+.main-body{
+  transition: fill 0.3s 0.03s ease;
+  fill: transparent;
+}
+
+.like-icon:hover .main-body, .like-icon:hover .core{
+  fill: var(--hover-heart-color);
+}
+
+.like-icon:not(:hover) .heart-body{
+  fill: transparent;
+}
+
+.core{
+  transition: fill 0.3s ease;
+}
+
+.like-icon:not(:hover) .core{
+  transition-delay: 0.03s;
+  fill: transparent;
+}
+
+
 .like-icon-button:focus-visible{
   outline: none;
   border: 2px solid var(--border-color);
   transition: border 0.3s ease;
 }
+
+.like-icon:active .main-body, .like-icon:active .core{
+  fill: var(--heart-color);
+}
+
+
 
 .sparks{
   opacity: 0;
