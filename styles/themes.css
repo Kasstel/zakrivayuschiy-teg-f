@@ -15,13 +15,15 @@
   --bt-text-color: #fff;
   --text-shadow: #fff;
   --hover-heart-color: #000;
+  --main-card-font-weight: 400;
+  --card-title-font-weight: 700;
   --bg-image: repeating-linear-gradient(
-    to right, #d3d3d3, transparent 2px 
+    90deg, #d3d3d3 0 2px, transparent 2px 4px
   ),
   repeating-linear-gradient(
-    to bottom, #d3d3d3, transparent 2px
+    180deg, #d3d3d3 0 2px, transparent 2px 4px
   ),
-  linear-gradient(#e7e7e7,#1a1a1a);
+  linear-gradient(180deg,#e7e7e7 0%,#1a1a1a 100%);
   --text-color:  #000;
   --border-color: #000;
 }
@@ -32,13 +34,15 @@
     --bt-text-color: #fff;
     --text-shadow: #fff;
     --hover-heart-color: #000;
+    --main-card-font-weight: 400;
+    --card-title-font-weight: 700;
     --bg-image: repeating-linear-gradient(
-    to right, #d3d3d3, transparent 2px 
+    90deg, #d3d3d3 0 2px, transparent 2px 4px
   ),
   repeating-linear-gradient(
-    to bottom, #d3d3d3, transparent 2px
+    180deg, #d3d3d3 0 2px, transparent 2px 4px
   ),
-  linear-gradient(#e7e7e7,#1a1a1a);
+  linear-gradient(180deg,#e7e7e7 0%,#1a1a1a 100%);
     --text-color:  #000;
     --border-color: #000;
   }
