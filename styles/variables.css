@@ -1,23 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
+:root {
   --bg-color: #000;
   --main-font: Inter-Variable, sanf-serif;
   --accent-font: PressStart2P-Regular, sanf-serif;
-  --text-color:  #00CC14;
-  --border-color: #00CC14;
+  --text-color: #00cc14;
+  --border-color: #00cc14;
   --hover-heart-color: #00cc14;
-  --heart-color: #FF0000;
-  --bt-text-color: #00CC14;
-  --text-shadow: #00CC14;
+  --heart-color: #ff0000;
+  --bt-text-color: #00cc14;
+  --floppy-color: #00cc14;
+  --text-shadow: #00cc14;
   --main-card-font-weight: 465;
   --card-title-font-weight: 785;
   --section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-  --bg-image: repeating-linear-gradient(
-    90deg, #000 0 2px, transparent 2px 4px
-  ),
-  repeating-linear-gradient(
-    180deg, #000 0 2px, transparent 2px 4px
-  ),
-  linear-gradient(180deg,#007f0c 0%,#004306 100%);
+  --bg-image: repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #007f0c 0%, #004306 100%);
 }
-

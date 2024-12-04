@@ -11,31 +11,31 @@
 */
 
 @keyframes move {
-  0%{
+  0% {
     transform: translate(0);
   }
-  100%{
+  100% {
     transform: translate(4px);
   }
 }
 
 @keyframes scale-up {
-  0%{
+  0% {
     scale: 1;
   }
-  50%{
+  50% {
     scale: 1.5;
   }
-  100%{
+  100% {
     scale: 1;
   }
 }
 
 @keyframes show-sparks {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
