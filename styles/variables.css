@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --bg-color: #000;
-  --main-font: Inter-Variable, sanf-serif;
-  --accent-font: PressStart2P-Regular, sanf-serif;
+  --main-font: Inter-Variable, sans-serif;
+  --accent-font: PressStart2P-Regular, fantasy;
   --text-color: #00cc14;
   --border-color: #00cc14;
   --hover-heart-color: #00cc14;
