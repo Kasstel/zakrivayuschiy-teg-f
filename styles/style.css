@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: var(--bg-image);
-  background-attachment: fixed; 
+  background-attachment: fixed;
   font-variation-settings: "wght" var(--main-card-font-weight);
 }
 
@@ -171,8 +171,8 @@
   text-shadow: 0 0 2px var(--text-shadow);
 }
 
-@supports (text-stroke: 1px var(--text-shadow)) or (-webkit-text-stroke: 1px var(--text-shadow)) 
-{
+@supports (text-stroke: 1px var(--text-shadow)) or
+  (-webkit-text-stroke: 1px var(--text-shadow)) {
   .card-image__label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--text-shadow);
@@ -200,7 +200,6 @@
 .card__icon-button:focus {
   outline: none;
 }
-
 
 .like-icon .main-body {
   transition: fill 0.3s 0.03s linear;
@@ -396,7 +395,7 @@ dialog[open] .dialog__button {
 }
 
 @media (width <= 376px) {
-  .card{
+  .card {
     margin-block-end: 52px;
   }
 
@@ -420,13 +419,12 @@ dialog[open] .dialog__button {
     margin-block-end: 8px;
   }
 
-  dialog[open]
-  {
+  dialog[open] {
     padding-inline: 36px;
     padding-block: 32px;
   }
 
-  .dialog-title{
+  .dialog-title {
     text-align: justify;
   }
 }
