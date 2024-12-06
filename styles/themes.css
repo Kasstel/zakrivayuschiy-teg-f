@@ -13,7 +13,8 @@
   --heart-color: #ff0000;
   --bt-text-color: #00cc14;
   --floppy-color: #00cc14;
-  --text-shadow: #00cc14;
+  --text-shadow: #000;
+  --text-stroke: #000;
   --main-card-font-weight: 465;
   --card-title-font-weight: 785;
   --bg-image: repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
@@ -25,6 +26,7 @@
   --bg-color: #fff;
   --bt-text-color: #fff;
   --text-shadow: #fff;
+  --text-stroke: #fff;
   --floppy-color: #fff;
   --hover-heart-color: #000;
   --main-card-font-weight: 400;
@@ -45,6 +47,7 @@
     --bg-color: #fff;
     --bt-text-color: #fff;
     --text-shadow: #fff;
+    --text-stroke: #fff;
     --floppy-color: #fff;
     --hover-heart-color: #000;
     --main-card-font-weight: 400;

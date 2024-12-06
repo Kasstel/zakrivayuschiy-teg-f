@@ -171,11 +171,11 @@
   text-shadow: 0 0 2px var(--text-shadow);
 }
 
-@supports (text-stroke: 1px var(--text-shadow)) or
-  (-webkit-text-stroke: 1px var(--text-shadow)) {
+@supports (text-stroke: 1px var(--text-stroke)) or
+  (-webkit-text-stroke: 1px var(--text-stroke)) {
   .card-image__label {
     text-shadow: none;
-    -webkit-text-stroke: 1px var(--text-shadow);
+    -webkit-text-stroke: 1px var(--text-stroke);
   }
 }
 
@@ -405,6 +405,10 @@ dialog[open] .dialog__button {
 
   .card__icon-button {
     margin-inline-end: 6px;
+  }
+
+  .card-image__label{
+    right: 13px;
   }
 
   .save__button {

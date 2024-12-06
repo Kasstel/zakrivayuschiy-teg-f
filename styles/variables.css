@@ -5,11 +5,12 @@
   --accent-font: PressStart2P-Regular, fantasy;
   --text-color: #00cc14;
   --border-color: #00cc14;
+  --text-stroke: #000;
   --hover-heart-color: #00cc14;
   --heart-color: #ff0000;
   --bt-text-color: #00cc14;
   --floppy-color: #00cc14;
-  --text-shadow: #00cc14;
+  --text-shadow: #000;
   --main-card-font-weight: 465;
   --card-title-font-weight: 785;
   --section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
